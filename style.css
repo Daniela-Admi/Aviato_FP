@@ -249,9 +249,6 @@ Wrap Sections
 ========================================================================== */
 
 #headerwrap {
-  background: url(../img/header_bg.jpg) no-repeat;
-  margin-top: 60px;
-  padding-top: 100px;
   text-align: center;
   background-attachment: relative;
   background-position: cover;
@@ -269,7 +266,7 @@ Wrap Sections
 
 #headerwrap h1 {
   color: #ffffff;
-  margin-top: 18rem;
+  margin-top: 25rem;
   padding-bottom: 0.1rem;
   letter-spacing: 0.2rem;
   font-size: 5rem;
