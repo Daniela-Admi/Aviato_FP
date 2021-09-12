@@ -70,8 +70,8 @@ textarea {
 }
 
 /* ==========================================================================
-  General styles
-   ========================================================================== */
+General styles
+========================================================================== */
 
 html,
 body {
@@ -97,7 +97,7 @@ body {
 }
 
 .modal-header {
-  background: #1abc9c;
+  background: #414746;
 }
 
 .modal-header h4 {
@@ -124,7 +124,6 @@ body {
 }
 
 .navbar-default li.active a {
-  background-color: #16a085 !important;
   color: #fff !important;
 }
 
@@ -232,13 +231,11 @@ blockquote cite:before {
 }
 
 /* Images */
-
 .overflow-image {
   margin-top: -65px;
 }
 
 /* Links */
-
 a {
   color: #3bc492;
   word-wrap: break-word;
@@ -266,13 +263,13 @@ a:after {
 }
 
 /* ==========================================================================
-  Wrap Sections
-   ========================================================================== */
+Wrap Sections
+========================================================================== */
 
 #headerwrap {
   background: url(../img/header_bg.jpg) no-repeat;
-  margin-top: 50px;
-  padding-top: 120px;
+  margin-top: 60px;
+  padding-top: 100px;
   text-align: center;
   background-attachment: relative;
   background-position: cover;
@@ -290,23 +287,24 @@ a:after {
 
 #headerwrap h1 {
   color: #ffffff;
-  margin-top: 16rem;
-  padding-bottom: 30px;
-  letter-spacing: 0.5rem;
-  font-size: 100px;
+  margin-top: 18rem;
+  padding-bottom: 0.1rem;
+  letter-spacing: 0.2rem;
+  font-size: 5rem;
   font-weight: bold;
   text-shadow: 2px 2px 2px #000;
 }
 
 #headerwrap p {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 400;
   text-align: center;
-  line-height: 40px;
-  letter-spacing: 3px;
-  margin-left: 15px;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  margin-left: 1rem;
   text-shadow: 1px 1px 1px #000;
+  margin-bottom: 1rem;
 }
 
 #greywrap {
@@ -399,12 +397,6 @@ a:after {
   font-size: 25px;
 }
 
-/* Section Divider Background */
-
-.divider2 {
-  background-image: url("../img/bg/divider2.jpg");
-}
-
 /* ==========================================================================
   Image Mask
    ========================================================================== */
@@ -426,7 +418,7 @@ a:after {
   left: 0;
   padding: 20px;
   color: #fff;
-  background: #1abc9c;
+  background: #2d3533;
 }
 
 .grid figcaption h5 {
@@ -528,50 +520,16 @@ a:after {
   }
 }
 
-.contact-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
-.contact-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
-/* Copyrights */
-
-#copyrights {
-  background: #222222;
-  padding: 30px 0;
+/* footer*/
+footer {
+  color: #191919;
+  margin: 0px 1px 1px 1px;
+  padding: 5px;
   text-align: center;
 }
-
-#copyrights p {
-  margin-bottom: 5px;
-  color: #fff;
-}
-
-#copyrights a {
-  color: #1abc9c;
-}
-
-.credits {
-  color: #999;
-}
-
 /* ==========================================================================
-   MEDIA QUERIES
-   ========================================================================== */
+MEDIA QUERIES
+========================================================================== */
 
 @media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
   body .header {
@@ -589,7 +547,7 @@ a:after {
 
 @media screen and (max-width: 769px) {
   #headerwrap h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 60px;
   }
   #headerwrap p {

@@ -5,18 +5,10 @@
     <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="este es mi portofolio . "
-    />
-    <meta
-      name="keywords"
-      content="diseño web, seo, html, css, scss, "
-    />
+    <meta name="description" content="este es mi portofolio . " />
+    <meta name="keywords" content="diseño web, seo, html, css, scss, " />
     <!-- Tag de Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--My css -->
-    <link rel="stylesheet" href="style.css" />
     <!-- bootstrapp css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -26,15 +18,18 @@
     />
     <!-- animation css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--My css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <!-- =======================================================
     Webpage: Daniela Romero Diseñadora Web
     Repositorio en github: 
     Autora: Daniela Romero
   ======================================================= -->
-<body data-spy="scroll" data-offset="58" data-target="#navbar-main">
-  <div id="navbar-main">
+  <body data-spy="scroll" data-offset="58" data-target="#navbar-main">
     <!-- Fixed navbar -->
+    <div class="container">
+      <div id="navbar-main">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <button
@@ -51,18 +46,12 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="#home"
+                  <a class="nav-link active" aria-current="page" href="#home"
                     ><strong>Inicio</strong></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="#about"
+                  <a class="nav-link active" aria-current="page" href="#about"
                     ><strong>Sobre</strong></a
                   >
                 </li>
@@ -75,7 +64,11 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#contact">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#contact"
+                  >
                     <strong> Contacto</strong></a
                   >
                 </li>
@@ -83,64 +76,50 @@
             </div>
           </div>
         </nav>
-  <!-- ==== HEADERWRAP encabezado ==== -->
-  <div id="home" class="container-fluid">
-  <div id="headerwrap" name="home" >
-    <header class="d-block w-100">
-      <h1>Soy Daniela Romero</h1>
-      <p>Diseñadora Web</p>
-      <p>Bienvenido/a a mi Portfolio</p>
-    </header>
-  </div>
-  <!-- headerwrap -->
-  <!-- ==== ABOUT ==== -->
-  <div class="container" id="about" name="about">
-    <div class="row white">
-      <br>
-      <h2 class="centered mt-5">UN POCO SOBRE MI</h2>
-      <hr>
-      <div class="col-lg-6">
-        <p>Durante los últimos años he cultivado un gran interés por el desarrollo web y la tecnología, 
-          empecé a finales del 2019 como freelance, me forme y lo sigo haciendo en Coderhouse, 
-          pero además soy autodidacta me gusta mucho investigar e implementar cosas nuevas todo el tiempo. 
-          Soy licenciada en Comercio Exterior y casi profesora de inglés hice media carrera lamentablemente 
-          la tuve que abandonar por razones de fuerza mayor, pero decididamente mi pasión son los lenguajes, 
-          tanto de personas como de programación.</p>
       </div>
-      <!-- col-lg-6 -->
-      <div class="col-lg-6">
-        <p>Mi búsqueda laboral se orienta a un trabajo preferentemente remoto y sin geografía, 
-          libre, flexible pero a la vez demandante y que me impulse a seguir superando mis propios límites, 
-          como un buen millenial adoro dar el 100% siempre, lo más importante de todo trabajo son las relaciones 
-          personales que he podido cultivar durante estos años, nací y me crie en Saladas-Corrientes 
-          pero soy una nómade en mi propio país, he vivido en corrientes Capital, en Neuquén, en Resistencia-Chaco
-          y esta es la segunda vez que me vengo a vivir a CABA. Mi sueño es poder crear algo maravillo 
-          y significativo que ayude a nuestro querido país.</p>
+    </div>
+    <!-- end of Fixed navbar -->
+
+    <!-- ==== HEADERWRAP encabezado ==== -->
+    <div id="home" class="container">
+      <div id="headerwrap" name="home">
+        <header class="d-block w-100">
+          <h1>Hola soy Daniela</h1>
+          <p>soy Desarrolladora Web</p>
+          <p>Bienvenido/a a mi Portfolio</p>
+        </header>
       </div>
-      <!-- col-lg-6 -->
     </div>
-    <!-- row -->
-  </div>
-  <!-- ==== PORTFOLIO ==== -->
-  <div class="container" id="portfolio" name="portfolio">
-    <br>
-    <div class="row">
-      <br>
-      <h2 class="centered mt-5">MIS CREACIONES</h2>
-      <hr>
+    <!-- end of headerwrap -->
+    <!-- ==== PORTFOLIO ==== -->
+    <div class="container" id="portfolio" name="portfolio">
+      <br />
+      <div class="row">
+        <br />
+        <h2 class="centered mt-5">MIS CREACIONES</h2>
+        <hr />
+      </div>
     </div>
-    </div>
-    <!-- /row -->
     <div class="container">
       <div class="row">
         <!-- PORTFOLIO IMAGE 1 -->
-        <div class="col-md-4 ">
+        <div class="col-md-4">
           <div class="grid mask">
             <figure>
-              <img class="img-responsive" src="img/portfolio/folio01.jpg" target="_blank" alt="imagen ilustrativa de pareja smart">
+              <img
+                class="img-responsive"
+                src="img/portfolio/folio01.jpg"
+                target="_blank"
+                alt="imagen ilustrativa de pareja smart"
+              />
               <figcaption>
                 <h4>Pareja Smart</h4>
-                <a data-toggle="modal" href="https://agacosta.com/" class="btn btn-primary btn-lg">Mirar el sitio</a>
+                <a
+                  data-toggle="modal"
+                  href="https://agacosta.com/"
+                  class="btn btn-info btn-lg"
+                  >Mirar el sitio</a
+                >
               </figcaption>
             </figure>
           </div>
@@ -149,10 +128,20 @@
         <div class="col-md-4">
           <div class="grid mask">
             <figure>
-              <img class="img-responsive" src="img/portfolio/folio02.jpg" target="_blank" alt="dental leduc imagen de muestra">
+              <img
+                class="img-responsive"
+                src="img/portfolio/folio02.jpg"
+                target="_blank"
+                alt="dental leduc imagen de muestra"
+              />
               <figcaption>
                 <h4>Dental Deluc</h4>
-                <a data-toggle="modal" href="https://dentalleduc.com/" class="btn btn-primary btn-lg">Mirar el sitio</a>
+                <a
+                  data-toggle="modal"
+                  href="https://dentalleduc.com/"
+                  class="btn btn-info btn-lg"
+                  >Mirar el sitio</a
+                >
               </figcaption>
             </figure>
           </div>
@@ -161,56 +150,106 @@
         <div class="col-md-4">
           <div class="grid mask">
             <figure>
-              <img class="img-responsive" src="img/portfolio/folio03.jpg" alt="imagen ilustrativa de 3w">
+              <img
+                class="img-responsive"
+                src="img/portfolio/folio03.jpg"
+                alt="imagen ilustrativa de 3w"
+              />
               <figcaption>
                 <h4>3W</h4>
-                <a data-toggle="modal" href="daniela-admi.github.io/3w/" target="_blank" class="btn btn-primary btn-lg">Mirar el sitio</a>
+                <a
+                  data-toggle="modal"
+                  href="daniela-admi.github.io/3w/"
+                  target="_blank"
+                  class="btn btn-info btn-lg"
+                  >Mirar el sitio</a
+                >
               </figcaption>
             </figure>
           </div>
         </div>
       </div>
     </div>
-  <!-- ==== SECTION DIVIDER ==== -->
-  <section class="section-divider textdivider divider2">
-    <div class="container-fluid">
-      <h3>EL DISEÑO CREA UNA CONEXIÓN EMOCIONAL</h3>
-      <hr>
-      <p>Hay más en el diseño de lo que parece. 
-        Es cuando se encuentra con el corazón que 
-        el diseño crea una conexión significativa y 
-        duradera con la audiencia.</p>
-    </div>
-  </section> 
-  <!-- end of section -->
-<!-- Contact info -->
-      <div class="col-lg-3 mt-5" id="contact" name="contact">
-        <h3>Información de Contacto</h3>
-        <p><span class="icon icon-home"></span> Ceretti 2369 - Villa Urquiza - CABA<br/>
-          <span class="icon icon-mobile"></span> +54 1126281958 <br/>
-          <span class="icon icon-envelop"></span> <a href="#"> daniela225588@gmail.com</a> <br/>
-          <span class="icon icon-twitter"></span> <a href="https://www.linkedin.com/in/daniela-romero-168802205/"> Mi Linkedin </a> <br/>
-          <span class="icon icon-facebook"></span> <a href="https://www.instagram.com/dani_was/?hl=es"> Mi Instagram </a> <br/>
-        </p>
+    <!-- ==== end of PORTFOLIO ==== -->
+
+    <!-- ==== ABOUT ==== -->
+    <div class="container" id="about" name="about">
+      <div class="row white">
+        <br />
+        <h2 class="centered mt-5">UN POCO SOBRE MI</h2>
+        <hr />
+        <div class="col-lg-6">
+          <p>
+            Durante los últimos años he cultivado un gran interés por el
+            desarrollo web y la tecnología, empecé a finales del 2019 como
+            freelance, me forme y lo sigo haciendo en Coderhouse, pero además
+            soy autodidacta me gusta mucho investigar e implementar cosas nuevas
+            todo el tiempo. Soy licenciada en Comercio Exterior y casi profesora
+            de inglés hice media carrera lamentablemente la tuve que abandonar
+            por razones de fuerza mayor, pero decididamente mi pasión son los
+            lenguajes, tanto de personas como de programación.
+          </p>
+        </div>
+        <!-- col-lg-6 -->
+        <div class="col-lg-6">
+          <p>
+            Mi búsqueda laboral se orienta a un trabajo preferentemente remoto y
+            sin geografía, libre, flexible pero a la vez demandante y que me
+            impulse a seguir superando mis propios límites, como un buen
+            millenial adoro dar el 100% siempre, lo más importante de todo
+            trabajo son las relaciones personales que he podido cultivar durante
+            estos años, nací y me crie en Saladas-Corrientes pero soy una nómade
+            en mi propio país, he vivido en corrientes Capital, en Neuquén, en
+            Resistencia-Chaco y esta es la segunda vez que me vengo a vivir a
+            CABA. Mi sueño es poder crear algo maravillo y significativo que
+            ayude a nuestro querido país.
+          </p>
+        </div>
+        <!-- col-lg-6 -->
       </div>
-
-  
-  <div id="copyrights">
-    <div class="container">
-      <p>
-        &copy; Hecho por <strong>Daniela Romero</strong> con bootstrap
-      </p>
     </div>
-  </div>
-</body>
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-crossorigin="anonymous"
-></script>
-<!-- js for animations -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- my js -->
-<script src="script.js"></script>
+    <!--Pie de Pagina-->
+    <footer>
+      <!--redes sociales-->
+      <div class="container" id="about" name="about">
+        <div class="row white">
+          <br />
+          <h2 class="centered mt-5">CONTACTO</h2>
+          <hr />
+          <div class="social mt-5 mb-3">
+            <a href="https://www.instagram.com/dani_was/?hl=es" target="_blank">
+              <img
+                src="https://img.icons8.com/officel/60/000000/instagram-new.png"
+                alt="icono a instagram"
+            /></a>
+            <a href="https://github.com/Daniela-Admi" target="_blank">
+              <img
+                src="https://img.icons8.com/plasticine/80/000000/github.png"
+                alt="icono a github"
+            /></a>
+            <a href="mailto:daniela225588@gmail.com" target="_blank">
+              <img
+                src="https://img.icons8.com/plasticine/80/000000/gmail-new.png"
+                alt="icono a gmail"
+            /></a>
+            <a href="https://wa.me/+541126281958" target="_blank">
+              <img
+                src="https://img.icons8.com/plasticine/80/000000/whatsapp.png"
+                alt="icono a gmail"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrapp js with Popper -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+  ></script>
+  <!-- js for animations -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- my js -->
+  <script src="script.js"></script>
 </html>
-
