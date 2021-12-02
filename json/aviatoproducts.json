@@ -1,0 +1,206 @@
+{
+  "women": [
+    {
+      "id": "1",
+      "price": 120,
+      "title": "London Black Bag",
+      "image": "media/women/women2.jpg",
+      "image2": "media/women/women1.jpg"
+    },
+    {
+      "id": "2",
+      "price": 135,
+      "title": "Paris Pink Bag",
+      "image": "media/women/women3.jpg",
+      "image2": "media/women/women4.jpg"
+    },
+    {
+      "id": "3",
+      "price": 110,
+      "title": "New York Bag",
+      "image": "media/women/women5.jpg",
+      "image2": "media/women/women6.jpg"
+    },
+    {
+      "id": "4",
+      "price": 39,
+      "title": "Pixie Black Sunglasses",
+      "image": "media/women/women7.jpg",
+      "image2": "media/women/women8.jpg"
+    },
+    {
+      "id": "5",
+      "price": 55,
+      "title": "Pixie Pink Sunglasses",
+      "image": "media/women/women9.jpg",
+      "image2": "media/women/women10.jpg"
+    },
+    {
+      "id": "6",
+      "price": 40,
+      "title": "Sofi Pink Hat",
+      "image": "media/women/women11.jpg",
+      "image2": "media/women/women12.jpg"
+    },
+    {
+      "id": "7",
+      "price": 20,
+      "title": "Sofi Green Hat",
+      "image": "media/women/women13.jpg",
+      "image2": "media/women/women14.jpg"
+    },
+    {
+      "id": "8",
+      "price": 23,
+      "title": "New Year Necklace",
+      "image": "media/women/women15.jpg",
+      "image2": "media/women/women16.jpg"
+    },
+    {
+      "id": "9",
+      "price": 75,
+      "title": "Janeira Necklace",
+      "image": "media/women/women17.jpg",
+      "image2": "media/women/women18.jpg"
+    },
+    {
+      "id": "10",
+      "price": 15,
+      "title": "Buenos Aires Necklace",
+      "image": "media/women/women19.jpg",
+      "image2": "media/women/women20.jpg"
+    },
+    {
+      "id": "11",
+      "price": 40,
+      "title": "Montevideo Necklace",
+      "image": "media/women/women21.jpg",
+      "image2": "media/women/women22.jpg"
+    },
+    {
+      "id": "12",
+      "price": 17,
+      "title": "Santiaga Necklace",
+      "image": "media/women/women23.jpg",
+      "image2": "media/women/women24.jpg"
+    }
+  ],
+
+  "men": [
+    {
+      "id": "13",
+      "price": 70,
+      "title": "Fisherman Black Hat",
+      "image": "media/men/men1.jpg",
+      "image2": "media/men/men2.jpg"
+    },
+    {
+      "id": "14",
+      "price": 120,
+      "title": "Bunnie Green Hat",
+      "image": "media/men/men3.jpg",
+      "image2": "media/men/men4.jpg"
+    },
+    {
+      "id": "15",
+      "price": 25,
+      "title": "Aloha Sunglasses",
+      "image": "media/men/men5.jpg",
+      "image2": "media/men/men6.jpg"
+    },
+    {
+      "id": "16",
+      "price": 72,
+      "title": "New York Sunglasses",
+      "image": "media/men/men7.jpg",
+      "image2": "media/men/men8.jpg"
+    },
+    {
+      "id": "17",
+      "price": 25,
+      "title": "Timotie Sunglasses",
+      "image": "media/men/men9.jpg",
+      "image2": "media/men/men10.jpg"
+    },
+    {
+      "id": "18",
+      "price": 85,
+      "title": "Landing Sling Bag",
+      "image": "media/men/men11.jpg",
+      "image2": "media/men/men12.jpg"
+    },
+    {
+      "id": "19",
+      "price": 110,
+      "title": "A-2 Sling Bag",
+      "image": "media/men/men13.jpg",
+      "image2": "media/men/men14.jpg"
+    },
+    {
+      "id": "20",
+      "price": 123,
+      "title": "Paradise Messenger Bag",
+      "image": "media/men/men15.jpg",
+      "image2": "media/men/men16.jpg"
+    },
+    {
+      "id": "21",
+      "price": 60,
+      "title": "Silver One Necklance",
+      "image": "media/men/men17.jpg",
+      "image2": "media/men/men18.jpg"
+    },
+    {
+      "id": "22",
+      "price": 85,
+      "title": "Cobra Gold Necklace",
+      "image": "media/men/men19.jpg",
+      "image2": "media/men/men20.jpg"
+    },
+    {
+      "id": "23",
+      "price": 15,
+      "title": "Like Home Scraf",
+      "image": "media/men/men21.jpg",
+      "image2": "media/men/men22.jpg"
+    },
+    {
+      "id": "24",
+      "price": 45,
+      "title": "Selvedge Scarf",
+      "image": "media/men/men23.jpg",
+      "image2": "media/men/men24.jpg"
+    }
+  ],
+
+  "newArrivals": [
+    {
+      "id": "25",
+      "price": 123,
+      "title": "Paradise Messenger Bag",
+      "image": "media/men/men15.jpg",
+      "image2": "media/men/men16.jpg"
+    },
+    {
+      "id": "26",
+      "price": 120,
+      "title": "London Black Bag",
+      "image": "media/women/women2.jpg",
+      "image2": "media/women/women1.jpg"
+    },
+    {
+      "id": "28",
+      "price": 85,
+      "title": "Cobra Gold Necklace",
+      "image": "media/men/men19.jpg",
+      "image2": "media/men/men20.jpg"
+    },
+    {
+      "id": "27",
+      "price": 110,
+      "title": "New York Bag",
+      "image": "media/women/women5.jpg",
+      "image2": "media/women/women6.jpg"
+    }
+  ]
+}
