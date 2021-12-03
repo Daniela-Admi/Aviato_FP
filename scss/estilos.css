@@ -93,8 +93,7 @@ body {
 }
 
 .logo {
-  width: 90px;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   margin-left: 13px;
 }
 
@@ -332,6 +331,10 @@ footer p {
 .heroimgWomen {
   height: 395px;
   background: url(../media/herowomen.jpg) center;
+}
+
+.heroimgError {
+  background: url(../media/page_404.jpg) center;
 }
 
 @media all and (max-width: 576px) {

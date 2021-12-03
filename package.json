@@ -1,0 +1,26 @@
+{
+  "name": "aviato",
+  "version": "1.0.0",
+  "description": "Not just fashion, but design. Everything we do in Aviato is meant to be remembered. It’s all about style. We create bags and accesories with minimal designs and maximum impact.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniela-Admi/Portfolio.git"
+  },
+  "author": "Daniela Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniela-Admi/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Daniela-Admi/Portfolio#readme"
+}

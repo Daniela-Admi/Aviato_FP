@@ -51,7 +51,9 @@
   height: 395px;
   background: url(../media/herowomen.jpg) center;
 }
-
+.heroimgError {
+  background: url(../media/page_404.jpg) center;
+}
 @media all and (max-width: 576px) {
   .main {
     height: 1350px;
