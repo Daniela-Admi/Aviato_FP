@@ -16,72 +16,113 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="js/pushbar/pushbar.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>Aviato</title>
   </head>
-<div class="container"> 
-  <body>
-    <nav
-      class="
-        navbarFont
-        navbar
-        sticky-top
-        navbar-expand-sm navbar-light
-        bg-white
-      "
-    >
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--logo mobile visible version-->
-        <a class="navbar-brand" href="index.html">
-          <img
-            class="logo d-sm-none d-sm-block"
-            src="media/logo.png"
-            alt="Aviato Logo"
-          />
-        </a>
-        <!--logo mobile visible version-->
 
-        <div
-          class="collapse navbar-collapse justify-content-between"
-          id="navbarTogglerDemo03"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="men.html"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Men
-              </a>
-              <ul
-                class="dropdown-menu navbarFont"
-                aria-labelledby="navbarDropdown"
-              >
-                <li>
-                  <a class="dropdown-item" href="men.html">New Arrivals</a>
-                </li>
-                <li><a class="dropdown-item" href="men.html">Bags</a></li>
-                <li><a class="dropdown-item" href="men.html">accesories</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
+  <body>
+    <div class="container">
+      <nav
+        class="
+          navbarFont
+          navbar
+          sticky-top
+          navbar-expand-sm navbar-light
+          bg-white
+        "
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--logo mobile visible version-->
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo d-sm-none d-sm-block"
+              src="media/logo.png"
+              alt="Aviato Logo"
+            />
+          </a>
+          <!--logo mobile visible version-->
+
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarTogglerDemo03"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="men.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Men
+                </a>
+                <ul
+                  class="dropdown-menu navbarFont"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="men.html">New Arrivals</a>
+                  </li>
+                  <li><a class="dropdown-item" href="men.html">Bags</a></li>
+                  <li>
+                    <a class="dropdown-item" href="men.html">accesories</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Women
+                </a>
+                <ul
+                  class="dropdown-menu navbarFont"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="women.html">New Arrivals</a>
+                  </li>
+                  <li><a class="dropdown-item" href="women.html">Bags</a></li>
+                  <li>
+                    <a class="dropdown-item" href="women.html">Accessories</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!--logo desktop visible version-->
+            <a class="navbar-brand d-none d-sm-block mx-auto" href="index.html">
+              <img class="logo" src="media/logo.png" alt="Aviato Logo" />
+            </a>
+            <!--logo desktop visible version-->
+          </div>
+          <!-- navbar-collapse.// -->
+          <ul class="navbar-nav customNavbar navbarCollapse">
+            <li class="nav-item usd dropdown d-none d-sm-block">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -90,126 +131,95 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Women
+                USD
               </a>
               <ul
-                class="dropdown-menu navbarFont"
+                class="dropdown-menu dropdown-menu-2 navbarFont"
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <a class="dropdown-item" href="women.html">New Arrivals</a>
+                  <a
+                    data-bs-target="#WIPModal"
+                    data-bs-toggle="modal"
+                    data-bs-dismiss="modal"
+                    class="dropdown-item"
+                    href="#"
+                    >ARS</a
+                  >
                 </li>
-                <li><a class="dropdown-item" href="women.html">Bags</a></li>
-                <li><a class="dropdown-item" href="women.html">Accessories</a></li>
+                <li>
+                  <a
+                    data-bs-target="#WIPModal"
+                    data-bs-toggle="modal"
+                    data-bs-dismiss="modal"
+                    class="dropdown-item"
+                    href="#"
+                    >EUR</a
+                  >
+                </li>
               </ul>
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#wishlistModal"
+                href="#"
+                ><i class="bi bi-heart icons"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#accountModal"
+                href="#"
+                ><i class="bi bi-person icons"></i
+              ></a>
+            </li>
+            <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
+              <span class="nav-link">
+                <i class="bi bi-cart icons"></i>
+              </span>
+              <div class="cart-items">0</div>
+            </li>
           </ul>
-          <!--logo desktop visible version-->
-          <a class="navbar-brand d-none d-sm-block mx-auto" href="index.html">
-            <img class="logo" src="media/logo.png" alt="Aviato Logo" />
-          </a>
-          <!--logo desktop visible version-->
         </div>
-        <!-- navbar-collapse.// -->
-        <ul class="navbar-nav customNavbar navbarCollapse">
-          <li class="nav-item usd dropdown d-none d-sm-block">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              USD
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-2 navbarFont"
-              aria-labelledby="navbarDropdown"
-            >
-              <li>
-                <a
-                  data-bs-target="#WIPModal"
-                  data-bs-toggle="modal"
-                  data-bs-dismiss="modal"
-                  class="dropdown-item"
-                  href="#"
-                  >ARS</a
-                >
-              </li>
-              <li>
-                <a
-                  data-bs-target="#WIPModal"
-                  data-bs-toggle="modal"
-                  data-bs-dismiss="modal"
-                  class="dropdown-item"
-                  href="#"
-                  >EUR</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="modal"
-              data-bs-target="#wishlistModal"
-              href="#"
-              ><i class="bi bi-heart icons"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="modal"
-              data-bs-target="#accountModal"
-              href="#"
-              ><i class="bi bi-person icons"></i
-            ></a>
-          </li>
-          <li class="nav-item cart-btn" data-pushbar-target="pushbar-cart">
-            <span class="nav-link">
-              <i class="bi bi-cart icons"></i>
-            </span>
-            <div class="cart-items">0</div>
-          </li>
-        </ul>
-      </div>
-      <!-- container-fluid.// -->
-    </nav>
+        <!-- container-fluid.// -->
+      </nav>
 
-    <div class="main-container">
-      <section class="container-fluid">
-        <div class="main row fw-bold fs-2 sectionContainer">
-          <a
-            href="men.html"
-            class="
-              col-sm-6 col-lg-6
-              d-flex
-              align-items-center
-              justify-content-center
-              main1
-              text-decoration-none
-            "
-          >
-            <p>Men</p>
-          </a>
-          <a
-            href="women.html"
-            class="
-              col-sm-6 col-lg-6
-              d-flex
-              align-items-center
-              justify-content-center
-              main2
-              text-decoration-none
-            "
-          >
-            <p>Women</p>
-          </a>
-        </div>
-      </section>
-      <!-- 
+      <div class="main-container">
+        <section class="container-fluid">
+          <div class="main row fw-bold fs-2 sectionContainer">
+            <a
+              href="men.html"
+              class="
+                col-sm-6 col-lg-6
+                d-flex
+                align-items-center
+                justify-content-center
+                main1
+                text-decoration-none
+              "
+            >
+              <p>Men</p>
+            </a>
+            <a
+              href="women.html"
+              class="
+                col-sm-6 col-lg-6
+                d-flex
+                align-items-center
+                justify-content-center
+                main2
+                text-decoration-none
+              "
+            >
+              <p>Women</p>
+            </a>
+          </div>
+        </section>
+        <!-- 
       <div class="container-fluid gx-0 mb-5">
         <div
           class="heroimg text-center d-flex flex-column justify-content-center"
@@ -220,306 +230,318 @@
         </div>
       </div> -->
 
-      <section
-        class="container p-5 mb-0 text-center d-flex justify-content-between"
-      >
-        <div class="row">
-          <div class="col-sm-4">
-            <i class="bi bi-brightness-high-fill icons2"></i>
-            <p class="fs-4 fw-bold">15% Off First Order</p>
-            <p>Subscribe to our mailing list for 15% off your first order.</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="bi bi-truck icons2"></i>
-            <p class="fs-4 fw-bold">30 days Returns</p>
-            <p>Shop with certainty with a 30 day returns policy.</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="bi bi-globe icons2"></i>
-            <p class="fs-4 fw-bold">Worldwide Shipping</p>
-            <p>Free worldwide shipping on all orders over $95</p>
-          </div>
-        </div>
-      </section>
-
-      <!--cards rendered in index.js-->
-      <section class="container contt pb-5 mb-5">
-        <p class="fw-bold fs-4 mb-0 m-4 ms-0">Best Sellers</p>
-        <div class="row justify-content-center" id="newArrivals"></div>
-      </section>
-      <!--cards rendered in index.js-->
-
-      
-
-      <section class="container-fluid tempCollections">
-        <p class="collections pb-5 text-dark text-center mb-0">
-          Coming Soon Collections
-        </p>
-      </section>
-
-      <!--Collections desktop version-->
-      <section class="container-fluid displayBox d-none d-md-block">
-        <div class="container-fluid containerDisplay">
-          <a
-            ><img src="media/collection1.jpg" alt="Coming soon Collection pic"
-          /></a>
-          <a
-            ><img src="media/collection3.jpg" alt="Coming soon Collection pic"
-          /></a>
-          <a
-            ><img src="media/collection2.jpg" alt="Coming soon Collection pic"
-          /></a>
-        </div>
-      </section>
-
-      <!--Collections mobile version-->
-      <section class="containerDisplayMobile d-block d-md-none">
-        <!-- <img class="img-fluid" src="media/display1.jpg" alt=""> -->
-        <div class="mobileDisplay1"></div>
-        <div class="mobileDisplay2"></div>
-        <div class="mobileDisplay3"></div>
-      </section>
-      <div class="container-fluid temp"></div>
-    </div>
-
-    <section class="container-fluid g-0 para d-none d-md-block">
-      <div class="parallax">
-        <p
-          class="
-            para-text
-            text-center
-            fs-1
-            d-flex
-            justify-content-center
-            align-items-center
-          "
+        <section
+          class="container p-5 mb-0 text-center d-flex justify-content-between"
         >
-          Sale for this fall starts in
-        </p>
-      </div>
-      <div class="clock"></div>
-    </section>
-
-    <div
-      data-pushbar-id="pushbar-cart"
-      data-pushbar-direction="right"
-      class="pushbar pushbar-cart"
-    >
-      <div class="btn-cerrar">
-        <button data-pushbar-close><i class="bi bi-x-lg"></i></button>
-      </div>
-      <p class="pushbar__title">Shopping cart</p>
-      <div id="cartContainer">
-        <!--Items added in cart-->
-      </div>
-
-      <div class="pushbar__total">
-        <p>Total:</p>
-        <p>$<span class="pushbar__totalPrice text-light"></span></p>
-      </div>
-      <div id="pushbarButtons">
-        <button class="button button--hyperion pushbar__clearCart">
-          <span><span>Clear Cart</span></span>
-        </button>
-        <a href="checkout.html"
-          ><button class="button button--greip pushbar__checkout">
-            <span><span>Checkout</span></span>
-          </button></a
-        >
-      </div>
-    </div>
-
-    <footer class="bg-grey py-5" id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="logo-part d-flex flex-column justify-content-evenly">
-              <img src="media/logo.png" class="logo-footer" />
-              <p class="mb-0 footerSize">
-                Not just fashion, but <b>design.</b> <br />
-                <i> It’s all about style.</i>
-              </p>
+          <div class="row">
+            <div class="col-sm-4">
+              <i class="bi bi-brightness-high-fill icons2"></i>
+              <p class="fs-4 fw-bold">15% Off First Order</p>
+              <p>Subscribe to our mailing list for 15% off your first order.</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="bi bi-truck icons2"></i>
+              <p class="fs-4 fw-bold">30 days Returns</p>
+              <p>Shop with certainty with a 30 day returns policy.</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="bi bi-globe icons2"></i>
+              <p class="fs-4 fw-bold">Worldwide Shipping</p>
+              <p>Free worldwide shipping on all orders over $95</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <p class="footerFont">About Company</p>
-            <p>
-              We create bags and accesories with <i>minimal</i> designs and
-              <b>maximum</b> impact. <br />
-              Everything we do in Aviato is meant to be <i>remembered.</i>
-            </p>
-          </div>
-          <div class="col-md-3">
-            <p class="footerFont">Contact</p>
+        </section>
+
+        <!--cards rendered in index.js-->
+        <section class="container contt pb-5 mb-5">
+          <p class="fw-bold fs-4 mb-0 m-4 ms-0">Best Sellers</p>
+          <div class="row justify-content-center" id="newArrivals"></div>
+        </section>
+        <!--cards rendered in index.js-->
+
+        <section class="container-fluid tempCollections">
+          <p class="collections pb-5 text-dark text-center mb-0">
+            Coming Soon Collections
+          </p>
+        </section>
+
+        <!--Collections desktop version-->
+        <section class="container-fluid displayBox d-none d-md-block">
+          <div class="container-fluid containerDisplay">
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="#"
-              class="btn-footer"
-              >More Info </a
-            ><br />
+              ><img
+                src="media/collection1.jpg"
+                alt="Coming soon Collection pic"
+            /></a>
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="#"
-              class="btn-footer"
-              >Contact Us</a
-            >
+              ><img
+                src="media/collection3.jpg"
+                alt="Coming soon Collection pic"
+            /></a>
+            <a
+              ><img
+                src="media/collection2.jpg"
+                alt="Coming soon Collection pic"
+            /></a>
           </div>
-          <div class="col-md-3">
-            <p class="footerFont">Socials</p>
-            <div class="col-md-4 social d-flex flex-column">
+        </section>
+
+        <!--Collections mobile version-->
+        <section class="containerDisplayMobile d-block d-md-none">
+          <!-- <img class="img-fluid" src="media/display1.jpg" alt=""> -->
+          <div class="mobileDisplay1"></div>
+          <div class="mobileDisplay2"></div>
+          <div class="mobileDisplay3"></div>
+        </section>
+        <div class="container-fluid temp"></div>
+      </div>
+
+      <section class="container-fluid g-0 para d-none d-md-block">
+        <div class="parallax">
+          <p
+            class="
+              para-text
+              text-center
+              fs-1
+              d-flex
+              justify-content-center
+              align-items-center
+            "
+          >
+            Sale for this fall starts in
+          </p>
+        </div>
+        <div class="clock"></div>
+      </section>
+
+      <div
+        data-pushbar-id="pushbar-cart"
+        data-pushbar-direction="right"
+        class="pushbar pushbar-cart"
+      >
+        <div class="btn-cerrar">
+          <button data-pushbar-close><i class="bi bi-x-lg"></i></button>
+        </div>
+        <p class="pushbar__title">Shopping cart</p>
+        <div id="cartContainer">
+          <!--Items added in cart-->
+        </div>
+
+        <div class="pushbar__total">
+          <p>Total:</p>
+          <p>$<span class="pushbar__totalPrice text-light"></span></p>
+        </div>
+        <div id="pushbarButtons">
+          <button class="button button--hyperion pushbar__clearCart">
+            <span><span>Clear Cart</span></span>
+          </button>
+          <a href="checkout.html"
+            ><button class="button button--greip pushbar__checkout">
+              <span><span>Checkout</span></span>
+            </button></a
+          >
+        </div>
+      </div>
+
+      <footer class="bg-grey py-5" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="logo-part d-flex flex-column justify-content-evenly">
+                <img src="media/logo.png" class="logo-footer" />
+                <p class="mb-0 footerSize">
+                  Not just fashion, but <b>design.</b> <br />
+                  <i> It’s all about style.</i>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <p class="footerFont">About Company</p>
+              <p>
+                We create bags and accesories with <i>minimal</i> designs and
+                <b>maximum</b> impact. <br />
+                Everything we do in Aviato is meant to be <i>remembered.</i>
+              </p>
+            </div>
+            <div class="col-md-3">
+              <p class="footerFont">Contact</p>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/daniwebdesigner/"
-                >Instagram</a
+                href="#"
+                class="btn-footer"
+                >More Info </a
+              ><br />
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="#"
+                class="btn-footer"
+                >Contact Us</a
               >
-              <a target="_blank" rel="noopener noreferrer" href="#">Facebook</a>
-              <a target="_blank" rel="noopener noreferrer" href="#">Twitter</a>
+            </div>
+            <div class="col-md-3">
+              <p class="footerFont">Socials</p>
+              <div class="col-md-4 social d-flex flex-column">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/daniwebdesigner/"
+                  >Instagram</a
+                >
+                <a target="_blank" rel="noopener noreferrer" href="#"
+                  >Facebook</a
+                >
+                <a target="_blank" rel="noopener noreferrer" href="#"
+                  >Twitter</a
+                >
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
-    <div id="modalContainer">
-      <!--Modals start-->
+      <div id="modalContainer">
+        <!--Modals start-->
 
-      <!--MODAL wishlist start-->
-      <div
-        class="modal fade"
-        id="wishlistModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">
-                Add to wishlist
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body text-center">
-              You must have an Aviato account and be signed in to save items to
-              your wishlist
-            </div>
-            <div class="modal-footer d-flex flex-column">
-              <button
-                class="button button--hyperion mb-2"
-                data-bs-target="#WIPModal"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
-              >
-                <span><span>Sign in</span></span>
-              </button>
-              <button
-                class="button button--greip"
-                data-bs-target="#WIPModal"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
-              >
-                <span><span>Create an account</span></span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--MODAL wishlist end-->
-      <!--MODAL account start-->
-      <div
-        class="modal fade"
-        id="accountModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">
-                My account
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body text-center">
-              Create an Aviato account or log in to view your orders, return or
-              adjust your personal information
-            </div>
-            <div class="modal-footer d-flex flex-column">
-              <button
-                class="button button--hyperion mb-2"
-                data-bs-target="#WIPModal"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
-              >
-                <span><span>Sign in</span></span>
-              </button>
-              <button
-                class="button button--greip"
-                data-bs-target="#WIPModal"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
-              >
-                <span><span>Create an account</span></span>
-              </button>
+        <!--MODAL wishlist start-->
+        <div
+          class="modal fade"
+          id="wishlistModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">
+                  Add to wishlist
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                You must have an Aviato account and be signed in to save items
+                to your wishlist
+              </div>
+              <div class="modal-footer d-flex flex-column">
+                <button
+                  class="button button--hyperion mb-2"
+                  data-bs-target="#WIPModal"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                >
+                  <span><span>Sign in</span></span>
+                </button>
+                <button
+                  class="button button--greip"
+                  data-bs-target="#WIPModal"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                >
+                  <span><span>Create an account</span></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!--MODAL account end-->
-      <!--MODAL WorkInProgress start-->
-      <div
-        class="modal fade"
-        id="WIPModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">
-                Work in progress
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="
-                modal-body
-                text-center
-                d-flex
-                flex-column
-                align-items-center
-              "
-            >
-              This feature is not yet available
-              <img src="media/smile.jpg" class="smileFace" alt="Smiley face" />
+        <!--MODAL wishlist end-->
+        <!--MODAL account start-->
+        <div
+          class="modal fade"
+          id="accountModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">
+                  My account
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                Create an Aviato account or log in to view your orders, return
+                or adjust your personal information
+              </div>
+              <div class="modal-footer d-flex flex-column">
+                <button
+                  class="button button--hyperion mb-2"
+                  data-bs-target="#WIPModal"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                >
+                  <span><span>Sign in</span></span>
+                </button>
+                <button
+                  class="button button--greip"
+                  data-bs-target="#WIPModal"
+                  data-bs-toggle="modal"
+                  data-bs-dismiss="modal"
+                >
+                  <span><span>Create an account</span></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
+        <!--MODAL account end-->
+        <!--MODAL WorkInProgress start-->
+        <div
+          class="modal fade"
+          id="WIPModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title mx-auto fs-4" id="exampleModalLabel">
+                  Work in progress
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="
+                  modal-body
+                  text-center
+                  d-flex
+                  flex-column
+                  align-items-center
+                "
+              >
+                This feature is not yet available
+                <img
+                  src="media/smile.jpg"
+                  class="smileFace"
+                  alt="Smiley face"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--MODAL WorkInProgress end-->
       </div>
-      <!--MODAL WorkInProgress end-->
+      <!--Modals end-->
     </div>
-    <!--Modals end-->
-  </div>
     <!--clock stuff-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
