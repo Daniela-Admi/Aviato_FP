@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Not just fashion, but design. Everything we do in Aviato is meant to be remembered. It’s all about style. We create clothing with minimal designs and maximum impact."
+      content="Not just fashion, but design. Everything we do in Aviato is meant to be remembered. It’s all about style. We create bags and accesories with minimal designs and maximum impact."
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1"
     />
-    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css"
     />
-    <link rel="stylesheet" href="bootstrapCompiled/css/bootstrap.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="js/pushbar/pushbar.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>Aviato</title>
   </head>
-
+<div class="container"> 
   <body>
     <nav
       class="
@@ -77,8 +77,8 @@
                 <li>
                   <a class="dropdown-item" href="men.html">New Arrivals</a>
                 </li>
-                <li><a class="dropdown-item" href="men.html">T-Shirts</a></li>
-                <li><a class="dropdown-item" href="men.html">Pants</a></li>
+                <li><a class="dropdown-item" href="men.html">Bags</a></li>
+                <li><a class="dropdown-item" href="men.html">accesories</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -99,8 +99,8 @@
                 <li>
                   <a class="dropdown-item" href="women.html">New Arrivals</a>
                 </li>
-                <li><a class="dropdown-item" href="women.html">T-shirts</a></li>
-                <li><a class="dropdown-item" href="women.html">Pants</a></li>
+                <li><a class="dropdown-item" href="women.html">Bags</a></li>
+                <li><a class="dropdown-item" href="women.html">Accessories</a></li>
               </ul>
             </li>
           </ul>
@@ -179,45 +179,6 @@
     </nav>
 
     <div class="main-container">
-      <div class="container-fluid gx-0 mb-5">
-        <div
-          class="heroimg text-center d-flex flex-column justify-content-center"
-        >
-          <p class="fw-bold fs-3">Signature Line</p>
-          <p>Discover new styles added to our signature line</p>
-          <p class="fw-light">Discover the collection</p>
-        </div>
-      </div>
-
-      <section
-        class="container p-5 mb-0 text-center d-flex justify-content-between"
-      >
-        <div class="row">
-          <div class="col-sm-4">
-            <i class="bi bi-brightness-high-fill icons2"></i>
-            <p class="fs-4 fw-bold">15% Off First Order</p>
-            <p>Subscribe to our mailing list for 15% off your first order.</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="bi bi-truck icons2"></i>
-            <p class="fs-4 fw-bold">30 days Returns</p>
-            <p>Shop with certainty with a 30 day returns policy.</p>
-          </div>
-          <div class="col-sm-4">
-            <i class="bi bi-globe icons2"></i>
-            <p class="fs-4 fw-bold">Worldwide Shipping</p>
-            <p>Free worldwide shipping on all orders over $95</p>
-          </div>
-        </div>
-      </section>
-
-      <!--cards rendered in index.js-->
-      <section class="container contt pb-5 mb-5">
-        <p class="fw-bold fs-4 mb-0 m-4 ms-0">Best Sellers</p>
-        <div class="row justify-content-center" id="newArrivals"></div>
-      </section>
-      <!--cards rendered in index.js-->
-
       <section class="container-fluid">
         <div class="main row fw-bold fs-2 sectionContainer">
           <a
@@ -248,6 +209,47 @@
           </a>
         </div>
       </section>
+      <!-- 
+      <div class="container-fluid gx-0 mb-5">
+        <div
+          class="heroimg text-center d-flex flex-column justify-content-center"
+        >
+          <p class="fw-bold fs-3">Welcome to Aviato</p>
+          <p>Discover new styles added to our signature line</p>
+          <p class="fw-light">Discover the collection</p>
+        </div>
+      </div> -->
+
+      <section
+        class="container p-5 mb-0 text-center d-flex justify-content-between"
+      >
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="bi bi-brightness-high-fill icons2"></i>
+            <p class="fs-4 fw-bold">15% Off First Order</p>
+            <p>Subscribe to our mailing list for 15% off your first order.</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="bi bi-truck icons2"></i>
+            <p class="fs-4 fw-bold">30 days Returns</p>
+            <p>Shop with certainty with a 30 day returns policy.</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="bi bi-globe icons2"></i>
+            <p class="fs-4 fw-bold">Worldwide Shipping</p>
+            <p>Free worldwide shipping on all orders over $95</p>
+          </div>
+        </div>
+      </section>
+
+      <!--cards rendered in index.js-->
+      <section class="container contt pb-5 mb-5">
+        <p class="fw-bold fs-4 mb-0 m-4 ms-0">Best Sellers</p>
+        <div class="row justify-content-center" id="newArrivals"></div>
+      </section>
+      <!--cards rendered in index.js-->
+
+      
 
       <section class="container-fluid tempCollections">
         <p class="collections pb-5 text-dark text-center mb-0">
@@ -342,7 +344,7 @@
           <div class="col-md-3">
             <p class="footerFont">About Company</p>
             <p>
-              We create clothing with <i>minimal</i> designs and
+              We create bags and accesories with <i>minimal</i> designs and
               <b>maximum</b> impact. <br />
               Everything we do in Aviato is meant to be <i>remembered.</i>
             </p>
@@ -517,7 +519,7 @@
       <!--MODAL WorkInProgress end-->
     </div>
     <!--Modals end-->
-
+  </div>
     <!--clock stuff-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>

@@ -98,8 +98,8 @@
       "id": "14",
       "price": 120,
       "title": "Bunnie Green Hat",
-      "image": "media/men/men3.jpg",
-      "image2": "media/men/men4.jpg"
+      "image": "media/men/men4.jpg",
+      "image2": "media/men/men3.jpg"
     },
     {
       "id": "15",
@@ -126,8 +126,8 @@
       "id": "18",
       "price": 85,
       "title": "Landing Sling Bag",
-      "image": "media/men/men11.jpg",
-      "image2": "media/men/men12.jpg"
+      "image": "media/men/men12.jpg",
+      "image2": "media/men/men11.jpg"
     },
     {
       "id": "19",
@@ -161,25 +161,25 @@
       "id": "23",
       "price": 15,
       "title": "Like Home Scraf",
-      "image": "media/men/men21.jpg",
-      "image2": "media/men/men22.jpg"
+      "image": "media/men/men22.jpg",
+      "image2": "media/men/men21.jpg"
     },
     {
       "id": "24",
       "price": 45,
       "title": "Selvedge Scarf",
-      "image": "media/men/men23.jpg",
-      "image2": "media/men/men24.jpg"
+      "image": "media/men/men24.jpg",
+      "image2": "media/men/men23.jpg"
     }
   ],
 
   "newArrivals": [
     {
       "id": "25",
-      "price": 123,
-      "title": "Paradise Messenger Bag",
-      "image": "media/men/men15.jpg",
-      "image2": "media/men/men16.jpg"
+      "price": 110,
+      "title": "A-2 Sling Bag",
+      "image": "media/men/men13.jpg",
+      "image2": "media/men/men14.jpg"
     },
     {
       "id": "26",
@@ -190,10 +190,10 @@
     },
     {
       "id": "28",
-      "price": 85,
-      "title": "Cobra Gold Necklace",
-      "image": "media/men/men19.jpg",
-      "image2": "media/men/men20.jpg"
+      "price": 120,
+      "title": "Bunnie Green Hat",
+      "image": "media/men/men4.jpg",
+      "image2": "media/men/men3.jpg"
     },
     {
       "id": "27",
