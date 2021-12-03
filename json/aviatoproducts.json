@@ -37,21 +37,21 @@
     },
     {
       "id": "6",
-      "price": 40,
+      "price": 80,
       "title": "Sofi Pink Hat",
       "image": "media/women/women11.jpg",
       "image2": "media/women/women12.jpg"
     },
     {
       "id": "7",
-      "price": 20,
+      "price": 90,
       "title": "Sofi Green Hat",
       "image": "media/women/women13.jpg",
       "image2": "media/women/women14.jpg"
     },
     {
       "id": "8",
-      "price": 23,
+      "price": 123,
       "title": "New Year Necklace",
       "image": "media/women/women15.jpg",
       "image2": "media/women/women16.jpg"
@@ -183,24 +183,24 @@
     },
     {
       "id": "26",
-      "price": 120,
-      "title": "London Black Bag",
-      "image": "media/women/women2.jpg",
-      "image2": "media/women/women1.jpg"
+      "price": 123,
+      "title": "New Year Necklace",
+      "image": "media/women/women15.jpg",
+      "image2": "media/women/women16.jpg"
     },
     {
-      "id": "28",
+      "id": "27",
       "price": 120,
       "title": "Bunnie Green Hat",
       "image": "media/men/men4.jpg",
       "image2": "media/men/men3.jpg"
     },
     {
-      "id": "27",
-      "price": 110,
-      "title": "New York Bag",
-      "image": "media/women/women5.jpg",
-      "image2": "media/women/women6.jpg"
+      "id": "28",
+      "price": 135,
+      "title": "Paris Pink Bag",
+      "image": "media/women/women3.jpg",
+      "image2": "media/women/women4.jpg"
     }
   ]
 }

@@ -34,7 +34,7 @@ class Products {
 class UI {
   displayProducts(products) {
     let result = "";
-    products.forEach((product) => {
+    products.forEach(function (product) {
       result += `
             <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
                 <div class="product-grid">
